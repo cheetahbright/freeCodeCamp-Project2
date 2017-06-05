@@ -1,0 +1,90 @@
+.caption {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+    display:block;
+}
+.caption span.border {
+    background-color: #111;
+    color: #fff;
+    padding: 25px;
+    font-size: 25px;
+    letter-spacing: 25px;
+}
+.parallax {
+  background-imagE: url("https://images.pexels.com/photos/109371/pexels-photo-109371.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb");
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+.fa:hover {
+  opacity: 0.7;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.fa-github {
+  background: #E1E6F9;
+  color: #58287C;
+}
+
+footer {
+  background-color: silver;
+  border-top-style: outset;
+}
+header {
+  box-shadow: 3px 3px 3px #888888;
+}
+
+#intro {
+  background-color:#AAAAAA;
+  margin:auto;
+  width: 75%;
+}
+#portfolio {
+  background-color: white;
+  border-top-style:groove;
+  margin:auto;
+  width: 75%;
+}
+#contact {
+  background-color: white;
+  border-top-style:groove;
+   margin:auto;
+  width: 75%;
+  font-size:28px;
+}
+
+p {
+ color:white;
+  font-weight:600;
+}
+
+#portfolio {
+  font-size: 28px;
+}
+
+hr {
+  max-width:1000px;
+  padding:0;
+  border:0;
+  margin-top: 100px;
+}
